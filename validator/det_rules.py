@@ -1,11 +1,4 @@
-"""
-Module kiểm tra lỗi luật Detection (Dành cho Người 02):
-- invalid_class: class_id nằm ngoài khoảng [0, 79]
-- bbox_out_of_bounds: tọa độ hoặc kích thước box vượt ngoài phạm vi [0, 1]
-- duplicate_box: box bị nhân bản (cùng class, cùng kích thước, tâm lệch 1-2 pixel)
 
-Quy định: Chỉ sử dụng thư viện chuẩn của Python.
-"""
 
 import sys
 from pathlib import Path
