@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "type": "bbox_drift",
+      "target": "img_0065"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "img_0134"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "img_0198"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "img_0227"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0003"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0073"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0114"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0138"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0142"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0155"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0164"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0176"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0180"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0192"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0198"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0206"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0209"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0220"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0222"
+    },
+    {
+      "type": "class_swap",
+      "target": "img_0242"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0073"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0114"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0134"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0142"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0155"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0176"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0198"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0206"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0209"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0220"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0222"
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0242"
+    },
+    {
+      "type": "missing_box",
+      "target": "img_0108"
+    },
+    {
+      "type": "missing_box",
+      "target": "img_0230"
+    }
+  ]
+}
