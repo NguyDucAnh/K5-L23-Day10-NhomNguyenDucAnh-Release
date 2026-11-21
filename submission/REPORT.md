@@ -40,6 +40,6 @@ Nhóm lấy phiên bản guideline theo `jobs.csv` thay vì tin trực tiếp tr
 
 ## 6. Bug hoặc điểm chưa rõ trong lab (nếu có)
 
-Nhóm chưa phát hiện lỗi trong các script gốc của đề. Khó khăn chính là kết quả đối chiếu detection với panoptic có khá nhiều trường hợp báo nhầm, nhất là khi vật thể nhỏ, bị che khuất hoặc các box khác lớp chồng lên nhau. Do đó nhóm chỉ dùng `candidates.json` làm danh sách cần kiểm tra, không coi đây là danh sách lỗi cuối cùng.
+Trong quá trình kiểm tra, nhóm chưa ghi nhận vấn đề nào xuất phát từ các script gốc của đề bài. Tuy nhiên, quá trình so sánh kết quả detection và panoptic vẫn xuất hiện nhiều cảnh báo chưa chính xác, đặc biệt ở những trường hợp vật thể có kích thước nhỏ, bị che một phần hoặc các bounding box thuộc những lớp khác nhau bị chồng lấn. Vì vậy, nhóm sử dụng `candidates.json` như một nguồn tham khảo để xác định các trường hợp cần rà soát thêm, thay vì xem toàn bộ các mục trong file là lỗi thực tế.
 
 Ngoài ra, khi tạo file CSV handover bằng PowerShell, file ban đầu có ký tự BOM ở đầu header nên `check_handover.py` không đọc được cột `image`. Nhóm đã lưu lại CSV theo UTF-8 không BOM, chạy kiểm tra lại và đạt 17/17 PASS.
